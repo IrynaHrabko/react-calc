@@ -1,0 +1,21 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  max-width: 450px;
+  /* width: 100%; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+  background: cadetblue;
+  padding: 20px;
+  border-radius: 20px;
+}
+.main input {
+  grid-column: 1/-1;
+  text-align: right;
+}
